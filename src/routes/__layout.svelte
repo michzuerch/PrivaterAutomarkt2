@@ -3,5 +3,7 @@
 </script>
 
 <!-- Try some classes here -->
-<h1 class="uppercase text-indigo-500">Hello People of Earth</h1>
-<slot />
+<div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+	<h1 class="uppercase text-gray-800">Privater Automarkt Radolfzell</h1>
+	<slot />
+</div>

@@ -566,25 +566,37 @@ video {
 [hidden] {
   display: none;
 }
+.flex {
+	display: flex;
+}
+.min-h-screen {
+	min-height: 100vh;
+}
+.flex-col {
+	flex-direction: column;
+}
+.justify-center {
+	justify-content: center;
+}
+.bg-gray-100 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.py-6 {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 .uppercase {
 	text-transform: uppercase;
 }
-.text-indigo-500 {
+.text-gray-800 {
 	--tw-text-opacity: 1;
-	color: rgba(99, 102, 241, var(--tw-text-opacity));
+	color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
+@media (min-width: 640px) {
 
-:root {
-	--gradient: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
-	--light: #fff;
-	--grey: #f8f9fa;
-}
-
-html,
-body {
-	color: aqua;
-	margin: 0;
-	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	scroll-behavior: smooth;
+	.sm\:py-12 {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
 }
