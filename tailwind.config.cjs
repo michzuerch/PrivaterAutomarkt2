@@ -5,10 +5,15 @@ module.exports = {
 	purge: ['./src/**/*.svelte'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		fontFamily: {
+			sans: ['Nunito', 'sans-serif'],
+			display: ['Nunito', 'sans-serif'],
+			body: ['Nunito', 'sans-serif']
+		},
 		extend: {
 			colors: {
-				sky: colors.sky,
-				cyan: colors.cyan
+				primary: '#EA755E',
+				secondary: '#BD675F'
 			}
 		}
 	},
