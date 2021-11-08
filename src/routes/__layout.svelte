@@ -3,4 +3,7 @@
 	import NavigationHeader from '../components/NavigationHeader.svelte';
 </script>
 
-<NavigationHeader />
+<main class="m-4 container mx-auto">
+	<NavigationHeader />
+	<slot />
+</main>

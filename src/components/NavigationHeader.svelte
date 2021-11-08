@@ -1,7 +1,6 @@
 <header>
-	Navigation
 	<nav class="”flex" items-center justify-between p-6 container mx-auto>
-		<a href="”#”">
+		<a href="/">
 			<svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 64"
 				><defs
 					><style>
@@ -72,26 +71,40 @@
 		</a>
 
 		<div class="text-lg text-gray-600 hidden lg:flex">
-			<a href="#" class="block mt-4 lg:inline-block text-teal-600 lg:mt-0 mr-10"> Home </a>
-			<a href="#" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">
-				Services
+			<a href="/" class="block mt-4 lg:inline-block text-teal-600 lg:mt-0 mr-10"> Home </a>
+			<a href="/UnsereAutos" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">
+				Unsere Autos
 			</a>
-			<a href="#" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">
-				Portfolio
+			<a href="/Kontakt" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">
+				Kontakt
 			</a>
-			<a href="#" class="block hover:text-gray-700 mt-4 lg:inline-block lg:mt-0 mr-10"> Company </a>
-			<a href="#" class="block hover:text-gray-700 mt-4 lg:inline-block lg:mt-0"> Contact </a>
+			<a href="/Finanzierung" class="block hover:text-gray-700 mt-4 lg:inline-block lg:mt-0 mr-10"
+				>Finanzierung</a
+			>
+			<a href="/Impressum" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10"
+				>Kontakt</a
+			>
+			<a href="/Standort" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10"
+				>Standort</a
+			>
+			<a
+				href="/UnsereDienstleistungen"
+				class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">Dienstleistungen</a
+			>
+			<a href="/Zulassung" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10"
+				>Zulassung</a
+			>
 		</div>
 
 		<div class="flex items-center">
-			<div class="mr-5 lg:mr-0">
+			<!-- 	<div class="mr-5 lg:mr-0">
 				<button class="py-2 px-6 rounded-md text-gray-600 hover:text-gray-700 text-lg"
 					>Sign in</button
 				>
 				<button class="py-2 px-6 bg-teal-500 hover:bg-teal-600 rounded-md text-white text-lg"
 					>Sign up</button
 				>
-			</div>
+			</div> -->
 			<div class="block lg:hidden">
 				<button
 					class="flex items-center px-4 py-3 border rounded text-teal-500 border-teal-500 focus:outline-none"
@@ -101,6 +114,9 @@
 						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
 					</svg>
 				</button>
+				<a href="/Zulassung" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10"
+					>Zulassung</a
+				>
 			</div>
 		</div>
 	</nav>
