@@ -1,5 +1,6 @@
+
 <header>
-	<nav class="”flex" items-center justify-between p-6 container mx-auto>
+	<nav class="flex items-center justify-between p-6 container mx-auto">
 		<a href="/">
 			<svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 64"
 				><defs
