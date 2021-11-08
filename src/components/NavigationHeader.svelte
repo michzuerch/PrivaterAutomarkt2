@@ -1,4 +1,3 @@
-
 <header>
 	<nav class="flex items-center justify-between p-6 container mx-auto">
 		<a href="/">
@@ -83,7 +82,7 @@
 				>Finanzierung</a
 			>
 			<a href="/Impressum" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10"
-				>Kontakt</a
+				>Impressum</a
 			>
 			<a href="/Standort" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10"
 				>Standort</a
