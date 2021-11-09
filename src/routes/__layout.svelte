@@ -1,8 +1,6 @@
 <script>
 	import '../styles/tailwind-output.css';
-	import NavigationHeader from '../components/NavigationHeader.svelte';
-
-	let darkMode = true;
+	import NavigationHeader from '../lib/NavigationHeader.svelte';
 
 	import { onMount } from 'svelte';
 	import { themeChange } from 'theme-change';
@@ -14,7 +12,7 @@
 	});
 </script>
 
-<main class="m-4 container mx-auto  {darkMode ? 'dark' : ''}">
+<main>
 	<NavigationHeader />
 	<slot />
 </main>
