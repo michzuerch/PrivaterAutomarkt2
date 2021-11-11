@@ -1,8 +1,7 @@
-<script>
-	const imageUrl = `background-image: url("https://picsum.photos/id/1005/1600/1400");`;
-</script>
-
-<div class="hero min-h-screen ${imageUrl}">
+<div
+	class="hero min-h-screen"
+	style="background-image: url(&quot;https://picsum.photos/id/1005/1600/1400&quot;);"
+>
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="text-center hero-content text-neutral-content">
 		<div class="max-w-md">
