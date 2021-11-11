@@ -11,14 +11,22 @@ module.exports = {
 			body: ['Nunito', 'sans-serif']
 		},
 		extend: {
-			colors: {
-				primary: '#EA755E',
-				secondary: '#BD675F'
-			}
+			//			colors: {
+			//				primary: '#EA755E',
+			//				secondary: '#BD675F'
+			//			}
 		}
+	},
+	daisyui: {
+		styled: true,
+		themes: true,
+		base: true,
+		utils: true,
+		logs: true,
+		rtl: false
 	},
 	variants: {
 		extend: {}
 	},
-	plugins: []
+	plugins: [require('daisyui'), require('@tailwindcss/typography')]
 };
