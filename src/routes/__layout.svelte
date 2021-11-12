@@ -12,7 +12,7 @@
 	});
 </script>
 
+<NavigationHeader />
 <main>
-	<NavigationHeader />
 	<slot />
 </main>
