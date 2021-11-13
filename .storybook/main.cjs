@@ -1,10 +1,9 @@
 module.exports = {
 	core: {
-		builder: 'storybook-builder-vite'
+		builder: 'webpack5'
 	},
-	stories: ['../src/components/**/*.stories.js'],
-	addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-svelte-csf'],
 	svelteOptions: {
-		preprocess: require('../svelte.config.cjs').preprocess
+		preprocess: preprocess()
 	}
+	// Rest of the configuration here
 };
