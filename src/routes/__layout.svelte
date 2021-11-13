@@ -1,6 +1,6 @@
 <script>
 	import '../styles/tailwind-output.css';
-	import NavigationHeader from '../lib/NavigationHeader.svelte';
+	import NavigationHeader from '../components/NavigationHeader.svelte';
 
 	import { onMount } from 'svelte';
 	import { themeChange } from 'theme-change';
