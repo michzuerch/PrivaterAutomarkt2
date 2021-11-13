@@ -1,3 +1,9 @@
+<script context="module">
+	import { browser, dev } from '$app/env';
+
+	export const prerender = true;
+</script>
+
 <article>
 	<section class="container mx-auto px-6">
 		<!-- hero section content goes here -->

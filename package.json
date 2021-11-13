@@ -1,35 +1,93 @@
 {
 	"name": "privaterautomarkt2",
-	"version": "0.0.1",
+	"version": "1.0.1",
+	"description": "Webseite mit Svelte, Tailwind und Daisy UI",
+	"private": "true",
+	"author": {
+		"name": "Michael Zürcher",
+		"url": "https://github.io/michzuerch/",
+		"email": "michzuerch@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"directory": "https://github.com/michzuerch/PrivaterAutomarkt2"
+	},
+	"license": "MIT",
 	"scripts": {
 		"dev:only": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"preview": "svelte-kit preview",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"lint:js": "stylelint '{**/*,*}.js' --config stylelint.styled.config.js",
+		"lint:css": "stylelint '{**/*,*}.css'",
+		"lint:css:fix": "stylelint '{**/*,*}.css' --fix",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"tailwind:watch": "cross-env TAILWIND_MODE=watch cross-env NODE_ENV=development postcss src/styles/tailwind.css -o src/styles/tailwind-output.css -w",
 		"tailwind:build": "cross-env TAILWIND_MODE=build cross-env NODE_ENV=production postcss src/styles/tailwind.css -o src/styles/tailwind-output.css",
-		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\""
+		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\"",
+		"storybook": "start-storybook -p 6006 -s build",
+		"build-storybook": "build-storybook -s build",
+		"start": "sirv build",
+		"test": "jest --watchAll"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.16.0",
+		"@storybook/addon-actions": "^6.3.12",
+		"@storybook/addon-essentials": "^6.3.12",
+		"@storybook/addon-links": "^6.3.12",
+		"@storybook/addon-svelte-csf": "^1.1.0",
+		"@storybook/svelte": "^6.3.12",
 		"@sveltejs/adapter-static": "^1.0.0-next.21",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.0",
+		"babel-loader": "^8.2.3",
 		"concurrently": "^6.3.0",
 		"cross-env": "^7.0.3",
 		"eslint": "^8.2.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
+		"jest": "^27.3.1",
+		"jest-transform-svelte": "^2.1.1",
 		"postcss-cli": "^9.0.2",
 		"prettier": "^2.4.1",
 		"prettier-plugin-svelte": "^2.4.0",
+		"storybook-builder-vite": "^0.1.6",
+		"stylelint": "^14.0.1",
+		"stylelint-config-prettier": "^9.0.3",
+		"stylelint-config-recommended": "^6.0.0",
+		"stylelint-config-standard": "^23.0.0",
 		"svelte": "^3.44.1",
+		"svelte-loader": "^3.1.2",
 		"tailwindcss": "^2.2.19"
 	},
 	"type": "module",
 	"dependencies": {
 		"@tailwindcss/typography": "^0.4.1",
 		"daisyui": "^1.16.2",
+		"sirv-cli": "^1.0.14",
 		"theme-change": "^2.0.2"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.js.$": "babel-jest",
+			"^.+\\.svelte$": "jest-transform-svelte"
+		},
+		"moduleFileExtensions": [
+			"js",
+			"svelte",
+			"json"
+		],
+		"moduleNameMapper": {
+			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+			"\\.(css|scss|stylesheet)$": "<rootDir>/__mocks__/styleMock.js"
+		},
+		"setupFilesAfterEnv": [
+			"@testing-library/jest-dom/extend-expect"
+		],
+		"testPathIgnorePatterns": [
+			"/node_modules/",
+			"/build/",
+			"/storybook-static/"
+		]
 	}
 }
