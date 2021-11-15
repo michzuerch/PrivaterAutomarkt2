@@ -8,7 +8,9 @@
 	$: {
 		console.log(searchTerm);
 		if (searchTerm) {
-			filteredPokeman = $pokemon.filter((pokeman) => pokeman.name.includes(searchTerm));
+			filteredPokeman = $pokemon.filter((pokeman) =>
+				pokeman.name.toLowerCase().includes(searchTerm.toLocaleLowerCase())
+			);
 		} else {
 			filteredPokeman = [...$pokemon];
 		}
