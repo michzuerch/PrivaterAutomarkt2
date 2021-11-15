@@ -53,6 +53,9 @@
 			<a href="/Hero" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">
 				Hero
 			</a>
+			<a href="/Pokemon" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">
+				Pokemon
+			</a>
 			<a href="/UnsereAutos" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">
 				Unsere Autos
 			</a>
