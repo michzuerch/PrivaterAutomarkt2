@@ -7,6 +7,11 @@
 
 	$: {
 		console.log(searchTerm);
+		if (searchTerm) {
+			filteredPokeman = $pokemon.filter((pokeman) => pokeman.name.includes(searchTerm));
+		} else {
+			filteredPokeman = [...$pokemon];
+		}
 	}
 </script>
 
@@ -21,7 +26,7 @@
 	placeholder="Search pokeman"
 />
 <div class="py-4 grid gap-4 md:grid-cols-2 grid-cols-1">
-	{#each $pokemon as pokeman}
+	{#each filteredPokeman as pokeman}
 		<PokemanCard {pokeman} />
 	{/each}
 </div>
