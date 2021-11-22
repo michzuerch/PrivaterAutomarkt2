@@ -1,4 +1,9 @@
+<script>
+	const secretSauceRecipe = import.meta.env.VITE_SECRET_SAUCE_RECIPE;
+</script>
+
 <article>
+	<h1>Import from env:{secretSauceRecipe}</h1>
 	<section>
 		<div class="m-5">
 			<h2 class="mb-4 text-2xl text-green-700 font-bold">Buttons</h2>
@@ -73,7 +78,7 @@
 		<h2>Card</h2>
 		<div class="card bordered">
 			<figure>
-				<img src="https://picsum.photos/id/1005/400/250" />
+				<img src="https://picsum.photos/id/1005/400/250" alt="pic" />
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title">
