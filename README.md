@@ -27,6 +27,26 @@ npm run dev
 npm run dev -- --open
 ```
 
+## Format code with prettier
+
+This command will format all code
+
+```bash
+npm run format
+```
+
+## Linter
+
+Check your code with eslint
+
+```bash
+npm run lint
+```
+
+## CMS
+
+To start directus run `npx directus start` in /directus. [Local Directus](http://localhost:8055)
+
 ## Building
 
 Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
@@ -36,3 +56,7 @@ npm run build
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+
+## Todos
+
+- Check /static/manifest.json on internet for docs.
