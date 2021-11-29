@@ -50,7 +50,8 @@
 		"@tailwindcss/forms": "^0.3.4",
 		"@tailwindcss/line-clamp": "^0.2.2",
 		"@tailwindcss/typography": "^0.4.1",
-		"alpinejs": "^3.5.2",
+		"@popperjs/core": "2.11.0",
+		"chart.js": "2.9.4",
 		"daisyui": "^1.16.2"
 	},
 	"type": "module"

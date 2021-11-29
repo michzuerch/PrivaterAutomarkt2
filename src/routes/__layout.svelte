@@ -1,7 +1,7 @@
 <script>
 	import '../styles/tailwind-output.css';
 	import Darkmode from '$lib/darkmode.svelte';
-	import Navbar from '$lib/Navbar.svelte';
+	import Navbar from '$lib/Navbar/Navbar.svelte';
 </script>
 
 <Navbar />
