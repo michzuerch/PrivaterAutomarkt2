@@ -1,6 +1,12 @@
 {
 	"name": "privaterautomarkt2",
 	"version": "1.0.1",
+	"author": {
+		"name": "Michi",
+		"email": "michzuerch@gmail.com",
+		"url": "https://michzuerch.github.io/"
+	},
+	"private": true,
 	"scripts": {
 		"dev:only": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -14,7 +20,12 @@
 		"tailwind:build": "cross-env TAILWIND_MODE=build cross-env NODE_ENV=production postcss src/styles/tailwind.css -o src/styles/tailwind-output.css",
 		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\""
 	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
 	"devDependencies": {
+		"@fortawesome/free-solid-svg-icons": "^5.15.4",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.35",
 		"@sveltejs/adapter-static": "^1.0.0-next.21",
 		"@sveltejs/kit": "next",
@@ -28,17 +39,19 @@
 		"http-server": "^14.0.0",
 		"mdsvex": "^0.9.8",
 		"postcss-cli": "^9.0.2",
-		"prettier": "^2.4.1",
+		"prettier": "^2.5.0",
 		"prettier-plugin-svelte": "^2.5.0",
 		"svelte": "^3.44.2",
+		"svelte-fontawesome": "^0.0.3",
 		"tailwindcss": "^2.2.19",
 		"vite-imagetools": "^4.0.1"
 	},
-	"type": "module",
 	"dependencies": {
-		"@tailwindcss/typography": "^0.4.1",
 		"@tailwindcss/forms": "^0.3.4",
 		"@tailwindcss/line-clamp": "^0.2.2",
+		"@tailwindcss/typography": "^0.4.1",
+		"alpinejs": "^3.5.2",
 		"daisyui": "^1.16.2"
-	}
+	},
+	"type": "module"
 }

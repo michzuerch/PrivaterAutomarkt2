@@ -1,11 +1,13 @@
 <script>
 	import '../styles/tailwind-output.css';
-	import NavigationHeader from '../lib/NavigationHeader.svelte';
+	import Darkmode from '$lib/darkmode.svelte';
+	import Navbar from '$lib/Navbar.svelte';
 </script>
 
-<NavigationHeader />
+<Navbar />
+<Darkmode />
 <main>
-	<div class="bg-white dark:bg-black">
+	<div class="container bg-white dark:bg-black">
 		<slot />
 	</div>
 </main>

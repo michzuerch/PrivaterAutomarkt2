@@ -11,7 +11,7 @@ module.exports = {
 			body: ['Nunito', 'sans-serif']
 		},
 		extend: {
-			colors: {
+			/* 			colors: {
 				primary: {
 					900: '#003e6b',
 					800: '#0a558c',
@@ -73,6 +73,7 @@ module.exports = {
 					50: '#ffeeee'
 				}
 			}
+ */
 		}
 	},
 	daisyui: {

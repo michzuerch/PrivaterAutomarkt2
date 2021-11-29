@@ -1,38 +1,4 @@
-<script>
-	import { onMount } from 'svelte';
-	import { toggle_class } from 'svelte/internal';
-	import { fade } from 'svelte/transition';
-
-	{
-		(''); //Vite empty block sourcemap bug
-	}
-
-	let darkMode;
-	let darkModeReady = false;
-
-	onMount(() => {
-		darkMode = document.documentElement.classList.contains('dark');
-		darkModeReady = true;
-	});
-</script>
-
 <article>
-	{#if darkModeReady}
-		<span class="toggle mr-1 " in:fade={{ duration: 800 }}>
-			<input
-				type="checkbox"
-				id="toggle"
-				bind:checked={darkMode}
-				on:change={() => document.documentElement.classList.toggle('dark')}
-			/>
-			<label
-				id="darkicon"
-				title="Toggle dark mode"
-				for="toggle"
-				data-dark={darkMode ? 'Dark' : 'Light'}
-			/>
-		</span>
-	{/if}
 	<section class="container mx-auto px-6">
 		<!-- hero section content goes here -->
 		<div class="w-full lg:flex items-center">
