@@ -1,12 +1,15 @@
 <script>
 	import '../styles/tailwind-output.css';
 	import Darkmode from '$lib/darkmode.svelte';
-	import Navbar from '$lib/Navbar/Navbar.svelte';
+	import Burger from '$lib/Navbar/Burger.svelte';
 </script>
 
-<Navbar />
-<Darkmode />
 <main>
+	<header>
+		<h1>PA</h1>
+		<Burger />
+		<Darkmode />
+	</header>
 	<div class="container bg-white dark:bg-black">
 		<slot />
 	</div>

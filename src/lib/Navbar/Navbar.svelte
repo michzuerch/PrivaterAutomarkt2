@@ -1,6 +1,13 @@
 <script>
 	import IndexDropdown from '$lib/Navbar/IndexDropdown.svelte';
+	import Hamburger from 'hamburger-menu-svelte';
 
+	const menu_list = [
+		{ name: 'Sample1', url: './' },
+		{ name: 'Sample2', url: './' },
+		{ name: 'Sample3', url: './' },
+		{ name: 'Sample4', url: './' }
+	];
 	let navbarOpen = false;
 
 	function setNavbarOpen() {
@@ -19,7 +26,7 @@
 			>
 				Home
 			</a>
-			<button
+			<!-- 			<button
 				class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none bg-red-600"
 				type="button"
 				on:click={setNavbarOpen}
@@ -27,6 +34,8 @@
 				<i class="fas fa-bars" />
 				<span>Button</span>
 			</button>
+ -->
+			<Hamburger {menu_list} />
 		</div>
 		<div
 			class="lg:flex flex-grow items-center {navbarOpen ? 'block' : 'hidden'}"
