@@ -5,16 +5,20 @@
 	import Footer from '$lib/Footer.svelte';
 </script>
 
-<header>
-	<div class="flex">
-		<h1>PA</h1>
+<!-- <header>
+	<div
+		class="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-yellow-300"
+	>
 		<Burger />
-		<Darkmode />
+		<Darkmode /> 
 	</div>
 </header>
-<main>
-	<div class="container">
-		<slot />
-	</div>
+ -->
+<header>Header</header>
+<main >
+	Main
+	<slot />
 </main>
-<Footer />
+<footer>Footer</footer>
+<!-- <Footer />
+ -->
