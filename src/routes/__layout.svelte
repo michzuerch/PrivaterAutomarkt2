@@ -1,7 +1,7 @@
 <script>
 	import '../styles/tailwind-output.css';
 	import Darkmode from '$lib/Darkmode.svelte';
-	import Burger from '$lib/Navbar/Burger.svelte';
+	import Navbar from '$lib/Navbar/Navbar.svelte';
 	import Footer from '$lib/Footer.svelte';
 </script>
 
@@ -14,8 +14,8 @@
 	</div>
 </header>
  -->
-<header>Header</header>
-<main >
+<header><Navbar /></header>
+<main>
 	Main
 	<slot />
 </main>
