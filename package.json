@@ -25,7 +25,6 @@
 		"last 2 versions"
 	],
 	"devDependencies": {
-		"@fortawesome/fontawesome-free": "^5.15.4",
 		"@fortawesome/free-solid-svg-icons": "^5.15.4",
 		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/adapter-static": "next",
@@ -41,21 +40,14 @@
 		"mdsvex": "^0.9.8",
 		"postcss-cli": "^9.0.2",
 		"prettier": "^2.5.1",
-		"prettier-plugin-svelte": "^2.5.0",
+		"prettier-plugin-svelte": "^2.5.1",
 		"svelte": "^3.44.2",
 		"svelte-fontawesome": "^0.0.3",
-		"svelte-hamburgers": "^3.0.1",
 		"tailwindcss": "^2.2.19",
 		"vite-imagetools": "^4.0.1"
 	},
 	"dependencies": {
-		"@popperjs/core": "2.11.0",
-		"@tailwindcss/forms": "^0.3.4",
-		"@tailwindcss/line-clamp": "^0.2.2",
-		"@tailwindcss/typography": "^0.4.1",
-		"chart.js": "3.6.2",
-		"daisyui": "^1.16.2",
-		"hamburger-menu-svelte": "^2.2.0"
+		"@tailwindcss/typography": "^0.4.1"
 	},
 	"type": "module"
 }

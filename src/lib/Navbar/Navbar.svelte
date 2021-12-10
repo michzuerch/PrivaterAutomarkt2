@@ -9,8 +9,8 @@
 
 <!-- Navbar goes here
  -->
-<nav class="bg-gray-100">
-	<div class="max-w-6xl mx-auto">
+<nav class="bg-yellow-400">
+	<div class="max-w-full mx-auto px-12">
 		<div class="flex justify-between">
 			<div class="flex space-x-4">
 				<!-- Logo -->
@@ -33,7 +33,7 @@
 							<circle cx="17" cy="17" r="2" />
 							<path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
 						</svg>
-						<span class="font-bold">Privater Automarkt</span>
+						<span class="font-bold font-title text-1xl">Privater Automarkt</span>
 					</a>
 				</div>
 				<!-- Primary nav -->
