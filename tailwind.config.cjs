@@ -5,8 +5,15 @@ module.exports = {
 	content: ['./src/**/*.svelte', './src/**/*.html'],
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
+		extend: {
+			fontFamily: {
+				primary: 'Poppins, sans-serif',
+				sans: 'Roboto, sans-serif'
+			}
+		} 
+	},
+	variants: {
 		extend: {}
 	},
-	variants: {},
 	plugins: [require('@tailwindcss/typography')]
 };
