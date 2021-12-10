@@ -1,45 +1,188 @@
-<header class="h-16 bg-gray-800 flex justify-between items-center px-2">
-	<div class="flex">
-		<img class="h-16" src="favicon.png" alt="Logo" />
-		<nav class="flex items-center h-16 text-white">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				class="h-8 px-2 py-1 border rounded-sm"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke="currentColor"
-			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-				/>
-			</svg>
-		</nav>
-		<div class="text-2xl text-white">Privater Automarkt</div>
-	</div>
-</header>
-<section class="h-screen bg-gradient-to-r from-blue-500 to-cyan-400">
-	<div class="px-3 pt-8">
-		<h1 class="font-bold text-white text-xl leading-relaxed font-primary">Privater Automarkt</h1>
-		<p class="pt-6 text-sm text-white leading-loose">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo expedita aperiam
-			aliquam eligendi perspiciatis voluptatum eaque saepe voluptatem voluptate nisi reprehenderit
-			eum incidunt ipsa, quidem voluptatibus totam corrupti quas labore consequatur! Assumenda
-			perspiciatis nisi quo adipisci velit maxime explicabo, sequi obcaecati modi molestias
-			doloremque non ullam enim temporibus reprehenderit cumque quidem voluptates. Repellendus sed
-			quis odio voluptate earum rerum dolorem! Ullam esse mollitia perferendis et hic dolore, vel
-			explicabo dolorem earum commodi voluptatum ipsa quas autem doloremque ratione quidem assumenda
-			itaque minima pariatur atque aperiam! Iste accusamus eius mollitia facilis et, quam cum
-			laborum iure natus nemo quis iusto.
-		</p>
-	</div>
-	<a
-		href="https://home.mobile.de/PRIVATERAUTOMARKTRADOLFZELL#ses"
-		target="_blank"
-		class="inline-block bg-white mt-5 px-8 text-blue-500 rounded-full font-bold uppercase"
-	>
-		<img class="h-80" alt="Link zu mobile.de" src="Link_mobile_de.jpg" />
-	</a>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header
+            class="fixed inset-0 h-16 bg-gray-800 md:bg-gradient-to-r from-orange-500 to-yellow-400 flex justify-between items-center px-3"
+        >
+            <img class="md:h-6 lg:h-10" src="images/logo.png" alt="" />
+            <nav class="flex items-center h-16 text-white">
+                <svg
+                    class="md:hidden h-8 px-3 py-1 border rounded-sm"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1"
+                        d="M4 6h16M4 12h16M4 18h16"
+                    />
+                </svg>
+                <div
+                    class="hidden lg:inline-flex text-sm lg:text-base text-white space-x-4 lg:space-x-8 font-primary"
+                >
+                    <a href="#">Home</a>
+                    <a href="#">Features</a>
+                    <a href="#">Screenshots</a>
+                    <a href="#">Testimonial</a>
+                    <a href="#">Plans</a>
+                    <a href="#">Download</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <section class="pt-16 bg-gradient-to-r from-yellow-300 to-yellow-100">
+            <div
+                class="lg:flex lg:items-center px-4 pt-9 max-w-lg md:max-w-xl lg:max-w-4xl mx-auto"
+            >
+                <div class="lg:pt-16 pb-32">
+                    <h1
+                        class="font-bold text-gray-700 text-xl xs:text-2xl lg:text-4xl leading-relaxed font-primary"
+                    >
+                        Get Your App Landing Page<br />With Proton Template
+                    </h1>
+                    <p class="pt-6 text-sm text-gray-600 leading-loose">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Adipisci, ratione quam. Veniam nobis dolor libero
+                        eveniet neque laudantium nihil eius asperiores sequi
+                        quia harum aliquid autem doloribus, aperiam nostrum non.
+                    </p>
+                    <a
+                        href="#"
+                        class="inline-block bg-white mt-5 px-8 py-3 text-blue-500 rounded-full font-bold uppercase font-primary tracking-wide text-sm mr-4"
+                        >Download Now</a
+                    >
+                    <a
+                        href="#"
+                        class="inline-block mt-5 px-8 py-3 text-white border-2 border-white rounded-full font-bold uppercase font-primary tracking-wide text-sm"
+                        >Get Started</a
+                    >
+                </div>
+                <img
+                    src="images/intro-mobile.png"
+                    alt=""
+                    class="lg:h-64 flex-shrink-0"
+                />
+            </div>
+        </section>
+        <section class="min-h-screen bg-gray-50">
+            <div class="py-16 text-center">
+                <h2
+                    class="bg-lightBlue-100 inline-block px-8 py-2 font-primary font-bold uppercase text-sm tracking-wide rounded-full"
+                >
+                    Features
+                </h2>
+                <h3
+                    class="mt-4 text-xl font-primary font-bold bg-gradient-to-b from-cyan to-blue-500 bg-clip-text text-transparent"
+                >
+                    Amazing Features
+                </h3>
+            </div>
+            <div class="px-3 lg:grid lg:grid-cols-3 gap-4">
+                <div>
+                    <div class="flex space-x-4 mr-4">
+                        <div>
+                            <h4 class="text-2xl font-primary font-bold">
+                                User Friendly
+                            </h4>
+                            <p class="pt-3 text-gray-500 leading-loose text-sm">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Ipsa incidunt.
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0"
+                        ></div>
+                    </div>
+                    <div class="mt-6 flex space-x-4 mr-4">
+                        <div>
+                            <h4 class="text-2xl font-primary font-bold">
+                                Super Fast Speed
+                            </h4>
+                            <p class="pt-3 text-gray-500 leading-loose text-sm">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Ipsa incidunt.
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0"
+                        ></div>
+                    </div>
+                    <div class="mt-6 flex space-x-4 mr-4">
+                        <div>
+                            <h4 class="text-2xl font-primary font-bold">
+                                24/7 Support
+                            </h4>
+                            <p class="pt-3 text-gray-500 leading-loose text-sm">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Ipsa incidunt.
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0"
+                        ></div>
+                    </div>
+                </div>
+                <img src="images/app.png" alt="" class="my-8" />
+                <div>
+                    <div
+                        class="mt-6 flex flex-row-reverse space-x-4 space-x-reverse ml-4"
+                    >
+                        <div>
+                            <h4 class="text-2xl font-primary font-bold">
+                                Secure
+                            </h4>
+                            <p class="pt-3 text-gray-500 leading-loose text-sm">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Ipsa incidunt.
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0"
+                        ></div>
+                    </div>
+                    <div
+                        class="mt-6 flex flex-row-reverse space-x-4 space-x-reverse ml-4"
+                    >
+                        <div>
+                            <h4 class="text-2xl font-primary font-bold">
+                                Awesome Rating
+                            </h4>
+                            <p class="pt-3 text-gray-500 leading-loose text-sm">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Ipsa incidunt.
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0"
+                        ></div>
+                    </div>
+                    <div
+                        class="mt-6 flex flex-row-reverse space-x-4 space-x-reverse ml-4"
+                    >
+                        <div>
+                            <h4 class="text-2xl font-primary font-bold">
+                                Award Winning
+                            </h4>
+                            <p class="pt-3 text-gray-500 leading-loose text-sm">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Ipsa incidunt.
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
