@@ -1,14 +1,14 @@
 <script>
 	import { Icon } from 'svelte-fontawesome';
-	import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
+	//import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 
 	const secretSauceRecipe = import.meta.env.VITE_SECRET_SAUCE_RECIPE;
 </script>
 
 <article>
 	<h1>Import from env:{secretSauceRecipe}</h1>
-	<Icon icon={faEnvelope} />
-
+<!-- 	<Icon icon={faEnvelope} />
+ -->
 	<section>
 		<h2>Card</h2>
 		<div class="card bordered">
