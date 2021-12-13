@@ -7,7 +7,7 @@
 
 <article>
 	<h1>Import from env:{secretSauceRecipe}</h1>
-<!-- 	<Icon icon={faEnvelope} />
+	<!-- 	<Icon icon={faEnvelope} />
  -->
 	<section>
 		<h2>Card</h2>
