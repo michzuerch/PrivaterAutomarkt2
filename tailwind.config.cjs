@@ -10,7 +10,7 @@ module.exports = {
 				primary: 'Poppins, sans-serif',
 				sans: 'Roboto, sans-serif'
 			}
-		} 
+		}
 	},
 	variants: {
 		extend: {}
