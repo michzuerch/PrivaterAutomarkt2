@@ -27,12 +27,9 @@
 			class="hidden lg:inline-flex text-sm lg:text-base text-white space-x-4 lg:space-x-8 font-primary"
 		>
 			<a href="#">Home</a>
-			<a href="#">Features</a>
-			<a href="#">Screenshots</a>
-			<a href="#">Testimonial</a>
-			<a href="#">Plans</a>
-			<a href="#">Download</a>
-			<a href="#">Contact</a>
+			<a href="Gallery">Bildergallerie</a>
+			<a href="Impressum">Screenshots</a>
+			<a href="Location">So finden Sie uns</a>
 		</div>
 	</nav>
 </header>
@@ -64,11 +61,6 @@
 		</div>
 		<img src="images/intro-mobile.png" alt="" class="lg:h-64 flex-shrink-0" />
 	</div>
-</section>
-
-<section>
-	Gallery
-	<Gallery />
 </section>
 
 <section class="min-h-screen bg-gray-50">
