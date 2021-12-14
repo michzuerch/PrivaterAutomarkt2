@@ -1,5 +1,7 @@
 <script>
+	import Hero from '$lib/Hero.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import Gallery from '$lib/Gallery.svelte';
 </script>
 
 <header
@@ -34,6 +36,8 @@
 		</div>
 	</nav>
 </header>
+<Hero />
+
 <section class="pt-16 bg-gradient-to-r from-yellow-300 to-yellow-100">
 	<div class="lg:flex lg:items-center px-4 pt-9 max-w-lg md:max-w-xl lg:max-w-4xl mx-auto">
 		<div class="lg:pt-16 pb-32">
@@ -61,6 +65,12 @@
 		<img src="images/intro-mobile.png" alt="" class="lg:h-64 flex-shrink-0" />
 	</div>
 </section>
+
+<section>
+	Gallery
+	<Gallery />
+</section>
+
 <section class="min-h-screen bg-gray-50">
 	<div class="py-16 text-center">
 		<h2
