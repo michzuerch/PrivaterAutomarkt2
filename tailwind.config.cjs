@@ -15,5 +15,28 @@ module.exports = {
 	variants: {
 		extend: {}
 	},
-	plugins: [require('@tailwindcss/typography'), require('daisyui')]
+	plugins: [require('@tailwindcss/typography'), require('daisyui')],
+	daisyui: {
+		styled: true,
+		//themes: false,
+		base: true,
+		utils: true,
+		logs: true,
+		rtl: false,
+
+		themes: [
+			{
+				PA: {
+					// custom theme
+					primary: '#ea5234',
+					'primary-focus': '#d43616',
+					'primary-content': '#ffffff'
+					// other colors
+				}
+			},
+			'dark', // and some pre-defined theme
+			'forest',
+			'synthwave'
+		]
+	}
 };

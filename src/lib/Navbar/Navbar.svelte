@@ -9,16 +9,16 @@
 
 <!-- Navbar goes here
  -->
-<nav class="bg-gray-100">
+<nav class="bg-yellow-400">
 	<div class="max-w-6xl mx-auto">
 		<div class="flex justify-between">
 			<div class="flex space-x-4">
 				<!-- Logo -->
 				<div class="">
-					<a href="/" class="flex items-center py-5 px-2 text-gray-700">
+					<a href="/" class="flex items-center py-5 px-2 text-black">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="h-6 w-6 mr-1 text-blue-400"
+							class="h-6 w-6 mr-1 text-black"
 							width="24"
 							height="24"
 							viewBox="0 0 24 24"
@@ -38,18 +38,21 @@
 				</div>
 				<!-- Primary nav -->
 				<div class="hidden md:flex items-center space-x-1">
-					<a href="/About" class="py-5 px-3 text-gray-700 hover:text-gray-900">About</a>
-					<a href="/Hero" class="py-5 px-3 text-gray-700 hover:text-gray-900">Hero</a>
+					<a href="/Gallery" class="py-5 px-3 text-black hover:text-gray-700">Bildergallerie</a>
+					<a href="/Location" class="py-5 px-3 text-black hover:text-gray-700">So finden Sie uns</a>
+					<a href="/Impressum" class="py-5 px-3 text-black hover:text-gray-700">Impressum</a>
 				</div>
 			</div>
 			<!-- Secondary nav -->
 			<div class="hidden md:flex items-center space-x-1">
+				<!--
 				<a href="/Login" class="py-5 px-3 ">Login</a>
 				<a
 					href="/Signup"
 					class="py-2 px-3 bg-yellow-400 text-yellow-900 rounded hover:bg-yellow-300 hover:text-yellow-800 transition duration-300"
 					>Signup</a
 				>
+				-->
 			</div>
 			<!-- Mobile button -->
 			<div on:click={toggleMenu} class="md:hidden flex items-center">

@@ -1,141 +1,74 @@
 <script>
 	import Hero from '$lib/Hero.svelte';
-	import Footer from '$lib/Footer.svelte';
 	import Gallery from '$lib/Gallery.svelte';
+	import Autos from './Autos.svelte';
 </script>
 
-<header
-	class="fixed inset-0 h-16 bg-gray-800 md:bg-gradient-to-r from-orange-500 to-yellow-400 flex justify-between items-center px-3"
->
-	<img class="md:h-6 lg:h-10" src="images/logo.png" alt="" />
-	<nav class="flex items-center h-16 text-white">
-		<svg
-			class="md:hidden h-8 px-3 py-1 border rounded-sm"
-			xmlns="http://www.w3.org/2000/svg"
-			fill="none"
-			viewBox="0 0 24 24"
-			stroke="currentColor"
-		>
-			<path
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				stroke-width="1"
-				d="M4 6h16M4 12h16M4 18h16"
-			/>
-		</svg>
-		<div
-			class="hidden lg:inline-flex text-sm lg:text-base text-white space-x-4 lg:space-x-8 font-primary"
-		>
-			<a href="#">Home</a>
-			<a href="Gallery">Bildergallerie</a>
-			<a href="Impressum">Screenshots</a>
-			<a href="Location">So finden Sie uns</a>
-		</div>
-	</nav>
-</header>
 <Hero />
 
-<section class="pt-16 bg-gradient-to-r from-yellow-300 to-yellow-100">
-	<div class="lg:flex lg:items-center px-4 pt-9 max-w-lg md:max-w-xl lg:max-w-4xl mx-auto">
-		<div class="lg:pt-16 pb-32">
-			<h1
-				class="font-bold text-gray-700 text-xl xs:text-2xl lg:text-4xl leading-relaxed font-primary"
-			>
-				Get Your App Landing Page<br />With Proton Template
-			</h1>
-			<p class="pt-6 text-sm text-gray-600 leading-loose">
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ratione quam. Veniam
-				nobis dolor libero eveniet neque laudantium nihil eius asperiores sequi quia harum aliquid
-				autem doloribus, aperiam nostrum non.
-			</p>
-			<a
-				href="#"
-				class="inline-block bg-white mt-5 px-8 py-3 text-blue-500 rounded-full font-bold uppercase font-primary tracking-wide text-sm mr-4"
-				>Download Now</a
-			>
-			<a
-				href="#"
-				class="inline-block mt-5 px-8 py-3 text-white border-2 border-white rounded-full font-bold uppercase font-primary tracking-wide text-sm"
-				>Get Started</a
-			>
-		</div>
-		<img src="images/intro-mobile.png" alt="" class="lg:h-64 flex-shrink-0" />
-	</div>
-</section>
-
-<section class="min-h-screen bg-gray-50">
-	<div class="py-16 text-center">
-		<h2
-			class="bg-lightBlue-100 inline-block px-8 py-2 font-primary font-bold uppercase text-sm tracking-wide rounded-full"
-		>
-			Features
-		</h2>
-		<h3
-			class="mt-4 text-xl font-primary font-bold bg-gradient-to-b from-cyan to-blue-500 bg-clip-text text-transparent"
-		>
-			Amazing Features
-		</h3>
-	</div>
-	<div class="px-3 lg:grid lg:grid-cols-3 gap-4">
-		<div>
-			<div class="flex space-x-4 mr-4">
-				<div>
-					<h4 class="text-2xl font-primary font-bold">User Friendly</h4>
-					<p class="pt-3 text-gray-500 leading-loose text-sm">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa incidunt.
-					</p>
-				</div>
-				<div class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0" />
-			</div>
-			<div class="mt-6 flex space-x-4 mr-4">
-				<div>
-					<h4 class="text-2xl font-primary font-bold">Super Fast Speed</h4>
-					<p class="pt-3 text-gray-500 leading-loose text-sm">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa incidunt.
-					</p>
-				</div>
-				<div class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0" />
-			</div>
-			<div class="mt-6 flex space-x-4 mr-4">
-				<div>
-					<h4 class="text-2xl font-primary font-bold">24/7 Support</h4>
-					<p class="pt-3 text-gray-500 leading-loose text-sm">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa incidunt.
-					</p>
-				</div>
-				<div class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0" />
+<section class="py-16 bg-yellow-200 text-gray-800">
+	<div class="flex items-stretch justify-around px-4 pt-9 space-x-3  mx-auto">
+		<div class="card lg:card-side bg-yellow-100 shadow-lg">
+			<div class="card-body">
+				<h2 class="card-title">Finanzierung</h2>
+				<p>
+					Ihnen gefällt unser Preis-/ Leistungsangebot, aber der Kaufpreis überschreitet Ihr Budget
+					? Daran soll Ihr Wunsch nach einem Fahrzeug nicht scheitern!
+				</p>
+				<p class="pt-2">
+					Wir bieten Ihnen neben preiswerten Fahrzeugen auch zinsgünstige Kredite an. Es gibt auch
+					keine langen Wartezeiten für die Kreditentscheidung.
+				</p>
+				<p class="pt-2">
+					Nachdem die Kreditanfrage online abgeschickt wurde, liegt innerhalb weniger Minuten eine
+					Entscheidung vor.
+				</p>
 			</div>
 		</div>
-		<img src="images/app.png" alt="" class="my-8" />
-		<div>
-			<div class="mt-6 flex flex-row-reverse space-x-4 space-x-reverse ml-4">
+		<div class="card lg:card-side bg-yellow-100 shadow-lg">
+			<div class="card-body">
+				<h2 class="card-title">Dienstleistungen</h2>
 				<div>
-					<h4 class="text-2xl font-primary font-bold">Secure</h4>
-					<p class="pt-3 text-gray-500 leading-loose text-sm">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa incidunt.
-					</p>
+					Unser Unternehmen vermittelt Gebrauchtwagen von Privat an Privat mit 27 jähriger
+					Erfahrung. Der Vorteil darin ist der Käufer bekommt ein Fahrzeug das weitaus billiger
+					angeboten wird als beim normalen Autohändler / Autoplatz / Autohaus. Wir verkaufen auch
+					Ihr Autos.
+					<ul class="list-disc pt-3">
+						<li>Privat an Privat = günstig</li>
+						<li>Vermittlung, An- und Verkauf</li>
+						<li>Fachmännische Beratung bei Preisermittlung</li>
+						<li>Garantie - Finanzierung - Versicherung></li>
+						<li>Zulassungsservice, An.+ Ab.+ Ummeldung hres KFZ</li>
+						<li>Zollnummer, Kurzzeitkennzeichen</li>
+						<li>
+							Versicherungsservice (Doppelkarten), Wena-Car Garantie für Gebrauchtfahrzeuge bis 24
+							Monate
+						</li>
+						<li>Professionelle Beschilderung Ihres KFZ</li>
+						<li>Probefahrt mit roter Nummer</li>
+						<li>Partner - KFZ Werkstatt direkt vor Ort</li>
+						<li>Tüv und ASU Service</li>
+						<li>KFZ mit Bild im Internet bis zum Verkauf</li>
+						<li>Verkaufsplatz ist eingezäunt / Videoüberwacht</li>
+						<li>Beste Vermittlung durch 40 Jahre Erfahrung</li>
+						<li>Professioneller Verkauf Ihres KFZ</li>
+						<li>Inzahlungnahme Ihres Altautos</li>
+						<li>Entsorgung Ihres Altautos</li>
+					</ul>
 				</div>
-				<div class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0" />
 			</div>
-			<div class="mt-6 flex flex-row-reverse space-x-4 space-x-reverse ml-4">
-				<div>
-					<h4 class="text-2xl font-primary font-bold">Awesome Rating</h4>
-					<p class="pt-3 text-gray-500 leading-loose text-sm">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa incidunt.
-					</p>
-				</div>
-				<div class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0" />
-			</div>
-			<div class="mt-6 flex flex-row-reverse space-x-4 space-x-reverse ml-4">
-				<div>
-					<h4 class="text-2xl font-primary font-bold">Award Winning</h4>
-					<p class="pt-3 text-gray-500 leading-loose text-sm">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa incidunt.
-					</p>
-				</div>
-				<div class="bg-gradient-to-r from-blue-500 to-cyan h-16 w-16 rounded-full flex-shrink-0" />
+		</div>
+		<div class="card lg:card-side bg-yellow-100 shadow-lg">
+			<div class="card-body">
+				<h2 class="card-title">Zulassung</h2>
+				<p>
+					Herzlichen Glückwunsch!<br />
+					Vor der ersten Fahrt muss das Fahrzeug erst angemeldet werden. Eine reine, aber zeitaufwendige
+					Formalität. Zeit, die Sie nicht haben? Kein Problem: Wir übernehmen Anmeldung, Ummeldung und
+					Abmeldung Ihres Fahrzeug, egal wo Sie es gekauft haben. Zollnummer und Kurzzeitkennzeichen
+					ebenfalls !
+				</p>
 			</div>
 		</div>
 	</div>
-	<Footer />
 </section>
