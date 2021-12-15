@@ -8,7 +8,9 @@
 				Gebrauchtwagen ab 500 Euro, Finanzierung ab 1'000 Euro.<br />Wir verkaufen auch ihr Auto.
 				Privat an Privat ist günstiger.
 			</p>
-			<button class="btn btn-primary">Zu unseren Autos...</button>
+			<a href="https://home.mobile.de/PRIVATERAUTOMARKTRADOLFZELL#ses" target="_blank">
+				<button class="btn btn-primary">Zu unseren Autos...</button></a
+			>
 		</div>
 	</div>
 </div>
