@@ -1,4 +1,4 @@
-<div class="hero min-h-screen" style="background-image: url('Hero.jpg');">
+<div class="hero min-h-16 rounded-xl" style="background-image: url('Hero.jpg');">
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="text-center hero-content text-neutral-content">
 		<div class="max-w-full">

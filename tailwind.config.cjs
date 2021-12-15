@@ -23,7 +23,6 @@ module.exports = {
 		utils: true,
 		logs: true,
 		rtl: false,
-
 		themes: [
 			{
 				PA: {
@@ -33,10 +32,7 @@ module.exports = {
 					'primary-content': '#ffffff'
 					// other colors
 				}
-			},
-			'dark', // and some pre-defined theme
-			'forest',
-			'synthwave'
+			}
 		]
 	}
 };
