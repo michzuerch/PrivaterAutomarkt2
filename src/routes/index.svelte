@@ -7,9 +7,7 @@
 	import Shooting from '$lib/ShootingStarsBigImage.svelte';
 	import Taxidermi from '$lib/Taxidermi.svelte';
 	import Team from '$lib/Team.svelte';
-import ShootingStarsBigImage from '$lib/ShootingStarsBigImage.svelte';
+	import ShootingStarsBigImage from '$lib/ShootingStarsBigImage.svelte';
 </script>
 
-<!-- <Hero /> price fehlt -->
-<Pricetable/>
-<!-- <CustomerExperience /> -->
+<Hero />
