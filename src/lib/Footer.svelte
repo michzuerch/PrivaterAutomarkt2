@@ -30,9 +30,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="lg:w-1/6 md:w-1/2 w-full px-4">
-				<div class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-					<span class="footer-title">Kontakt</span>
+			<div class="lg:w-1/2 md:w-1/2 w-full px-4">
+				<div class="">
+					<span class="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Kontakt</span>
 					<p class="flex items-center justify-center md:justify-start">
 						<svg
 							aria-hidden="true"
