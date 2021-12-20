@@ -25,10 +25,9 @@
 				<h2 class="card-title">Haftungsausschluss</h2>
 				<p>
 					Herzlichen Glückwunsch!<br />
-					Vor der ersten Fahrt muss das Fahrzeug erst angemeldet werden. Eine reine, aber zeitaufwendige
-					Formalität. Zeit, die Sie nicht haben? Kein Problem: Wir übernehmen Anmeldung, Ummeldung und
-					Abmeldung Ihres Fahrzeug, egal wo Sie es gekauft haben. Zollnummer und Kurzzeitkennzeichen
-					ebenfalls !
+					Vor der ersten Fahrt muss das Fahrzeug erst angemeldet werden. Eine reine, aber zeitaufwendige Formalität.
+					Zeit, die Sie nicht haben? Kein Problem: Wir übernehmen Anmeldung, Ummeldung und Abmeldung Ihres Fahrzeug,
+					egal wo Sie es gekauft haben. Zollnummer und Kurzzeitkennzeichen ebenfalls !
 				</p>
 			</div>
 		</div>
@@ -37,9 +36,9 @@
 
 		<h2>Haftungsausschluss</h2>
 		<p>
-			Haftungsausschluss: Wir bemühen uns, Ihnen genaue und aktuelle Informationen zur Verfügung zu
-			stellen. Trotz größter Sorgfalt können wir keine Gewähr für die Richtigkeit und
-			Vollständigkeit der Inhalte dieser Internet-Seiten übernehmen.
+			Haftungsausschluss: Wir bemühen uns, Ihnen genaue und aktuelle Informationen zur Verfügung zu stellen. Trotz
+			größter Sorgfalt können wir keine Gewähr für die Richtigkeit und Vollständigkeit der Inhalte dieser
+			Internet-Seiten übernehmen.
 		</p>
 	</section>
 </article>

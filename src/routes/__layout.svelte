@@ -4,6 +4,8 @@
 	import Footer from '$lib/Footer.svelte';
 </script>
 
-<Navbar />
-<slot />
-<Footer />
+<div class="h-screen">
+	<Navbar />
+	<slot />
+	<Footer />
+</div>

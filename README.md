@@ -59,4 +59,4 @@ npm run build
 
 ## Todos
 
-- Check /static/manifest.json on internet for docs.
+-   Check /static/manifest.json on internet for docs.

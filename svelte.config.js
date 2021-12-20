@@ -12,20 +12,20 @@ const config = {
 		target: '#svelte',
 		vite: {
 			define: {
-				'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString())
+				'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString()),
 			},
 
-			plugins: [imagetools({ force: true })]
+			plugins: [imagetools({ force: true })],
 		},
 		adapter: adapter({
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			fallback: null
-		})
+			fallback: null,
+		}),
 	},
 
-	preprocess: [mdsvex(mdsvexConfig)]
+	preprocess: [mdsvex(mdsvexConfig)],
 };
 
 export default config;

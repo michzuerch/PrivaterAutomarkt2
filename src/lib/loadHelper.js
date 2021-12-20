@@ -6,14 +6,14 @@ export async function getAccessToken(fetch) {
 
 	var raw = JSON.stringify({
 		email: 'nico@nico.com',
-		password: 'nico22'
+		password: 'nico22',
 	});
 
 	var requestOptions = {
 		method: 'POST',
 		headers: myHeaders,
 		body: raw,
-		redirect: 'follow'
+		redirect: 'follow',
 	};
 
 	const response = await fetch('http://localhost:8055/auth/login', requestOptions);
@@ -36,7 +36,7 @@ export async function getArticleItems(fetch, token) {
 	var requestOptions = {
 		method: 'GET',
 		headers: myHeaders,
-		redirect: 'follow'
+		redirect: 'follow',
 	};
 
 	const response = await fetch('http://localhost:8055/items/articles', requestOptions);
@@ -61,7 +61,7 @@ export async function getArticleItem(fetch, token, id) {
 	var requestOptions = {
 		method: 'GET',
 		headers: myHeaders,
-		redirect: 'follow'
+		redirect: 'follow',
 	};
 
 	const response = await fetch(`http://localhost:8055/items/articles/${id}`, requestOptions);

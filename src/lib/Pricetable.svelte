@@ -1,23 +1,15 @@
 <section class="text-gray-700 body-font overflow-hidden border-t border-gray-200">
 	<div class="container px-5 py-24 mx-auto flex flex-wrap">
 		<div class="lg:w-1/4 mt-48 hidden lg:block">
-			<div
-				class="mt-px border-t border-gray-300 border-b border-l rounded-tl-lg rounded-bl-lg overflow-hidden"
-			>
-				<p
-					class="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start -mt-px"
-				>
+			<div class="mt-px border-t border-gray-300 border-b border-l rounded-tl-lg rounded-bl-lg overflow-hidden">
+				<p class="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start -mt-px">
 					Fingerstache disrupt
 				</p>
-				<p class="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
-					Franzen hashtag
-				</p>
+				<p class="text-gray-900 h-12 text-center px-4 flex items-center justify-start"> Franzen hashtag </p>
 				<p class="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
 					Tilde art party
 				</p>
-				<p class="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
-					Banh mi cornhole
-				</p>
+				<p class="text-gray-900 h-12 text-center px-4 flex items-center justify-start"> Banh mi cornhole </p>
 				<p class="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
 					Waistcoat squid hexagon
 				</p>
@@ -27,9 +19,7 @@
 				<p class="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
 					Brooklyn helvetica
 				</p>
-				<p class="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
-					Long Feature Two
-				</p>
+				<p class="text-gray-900 h-12 text-center px-4 flex items-center justify-start"> Long Feature Two </p>
 				<p class="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
 					Feature One
 				</p>
@@ -62,7 +52,7 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
@@ -79,13 +69,11 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
-				<p
-					class="h-12 text-gray-600 px-6 text-center leading-relaxed flex items-center justify-center"
-				>
+				<p class="h-12 text-gray-600 px-6 text-center leading-relaxed flex items-center justify-center">
 					Feature
 				</p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
@@ -101,7 +89,7 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
@@ -115,7 +103,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
@@ -128,7 +116,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="text-gray-600 text-center h-12 flex items-center justify-center">
@@ -141,7 +129,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
@@ -154,7 +142,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<div class="border-t border-gray-300 p-6 text-center rounded-bl-lg">
@@ -170,7 +158,7 @@
 							class="w-4 h-4 ml-auto"
 							viewBox="0 0 24 24"
 						>
-							<path d="M5 12h14M12 5l7 7-7 7" />
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
 						</svg>
 					</button>
 					<p class="text-xs text-gray-500 mt-3">
@@ -178,9 +166,7 @@
 					</p>
 				</div>
 			</div>
-			<div
-				class="lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-indigo-500 relative"
-			>
+			<div class="lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-indigo-500 relative">
 				<span
 					class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
 					>POPULAR</span
@@ -213,7 +199,7 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
@@ -230,13 +216,11 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
-				<p class="h-12 text-gray-600 text-center leading-relaxed flex items-center justify-center">
-					Feature
-				</p>
+				<p class="h-12 text-gray-600 text-center leading-relaxed flex items-center justify-center"> Feature </p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
 					<span
 						class="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0"
@@ -250,7 +234,7 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
@@ -267,7 +251,7 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
@@ -281,7 +265,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="text-gray-600 text-center h-12 flex items-center justify-center">
@@ -294,7 +278,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
@@ -307,7 +291,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<div class="p-6 text-center border-t border-gray-300">
@@ -323,7 +307,7 @@
 							class="w-4 h-4 ml-auto"
 							viewBox="0 0 24 24"
 						>
-							<path d="M5 12h14M12 5l7 7-7 7" />
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
 						</svg>
 					</button>
 					<p class="text-xs text-gray-500 mt-3">
@@ -331,9 +315,7 @@
 					</p>
 				</div>
 			</div>
-			<div
-				class="lg:w-1/3 w-full lg:mt-px border-2 border-gray-300 lg:border-none rounded-lg lg:rounded-none"
-			>
+			<div class="lg:w-1/3 w-full lg:mt-px border-2 border-gray-300 lg:border-none rounded-lg lg:rounded-none">
 				<div class="px-2 text-center h-48 flex flex-col items-center justify-center">
 					<h3 class="tracking-widest">BUSINESS</h3>
 					<h2
@@ -362,7 +344,7 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
@@ -379,13 +361,11 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
-				<p class="h-12 text-gray-600 text-center leading-relaxed flex items-center justify-center">
-					Feature
-				</p>
+				<p class="h-12 text-gray-600 text-center leading-relaxed flex items-center justify-center"> Feature </p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
 					<span
 						class="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0"
@@ -399,7 +379,7 @@
 							class="w-3 h-3"
 							viewBox="0 0 24 24"
 						>
-							<path d="M20 6L9 17l-5-5" />
+							<path d="M20 6L9 17l-5-5"></path>
 						</svg>
 					</span>
 				</p>
@@ -413,7 +393,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
@@ -426,7 +406,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="text-gray-600 text-center h-12 flex items-center justify-center">
@@ -439,7 +419,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<p class="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
@@ -452,7 +432,7 @@
 						class="w-5 h-5 text-gray-500"
 						viewBox="0 0 24 24"
 					>
-						<path d="M18 6L6 18M6 6l12 12" />
+						<path d="M18 6L6 18M6 6l12 12"></path>
 					</svg>
 				</p>
 				<div class="p-6 text-center border-t border-gray-300">
@@ -468,7 +448,7 @@
 							class="w-4 h-4 ml-auto"
 							viewBox="0 0 24 24"
 						>
-							<path d="M5 12h14M12 5l7 7-7 7" />
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
 						</svg>
 					</button>
 					<p class="text-xs text-gray-500 mt-3">

@@ -21,8 +21,8 @@
 					<div class="badge mx-2 badge-secondary">NEW</div>
 				</h2>
 				<p>
-					Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus
-					veritatis sed molestiae voluptates incidunt iure sapiente.
+					Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed
+					molestiae voluptates incidunt iure sapiente.
 				</p>
 				<div class="justify-end card-actions">
 					<button class="btn btn-secondary">More info</button>

@@ -8,12 +8,12 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				title: 'Poppins, sans-serif',
-				sans: 'Roboto, sans-serif'
-			}
-		}
+				sans: 'Roboto, sans-serif',
+			},
+		},
 	},
 	variants: {
-		extend: {}
+		extend: {},
 	},
-	plugins: []
+	plugins: [],
 };

@@ -12,8 +12,8 @@
 			 */
 			return {
 				props: {
-					articleItemResult: articleItemResult
-				}
+					articleItemResult: articleItemResult,
+				},
 			};
 		} catch (error) {
 			/* If unsuccessful, pass an object containing error and status to page.
@@ -22,7 +22,7 @@
 				/* Since Error does not contain the status, we use HttpError.
 				 */
 				status: error instanceof HttpError ? error.response.status : 500,
-				error: error
+				error: error,
 			};
 		}
 	}

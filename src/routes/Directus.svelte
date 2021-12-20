@@ -13,8 +13,8 @@
 			return {
 				props: {
 					articleItemsResult: articleItemsResult,
-					tokenResult: tokenResult
-				}
+					tokenResult: tokenResult,
+				},
 			};
 		} catch (error) {
 			/* If unsuccessful, pass an object containing error and status to page.
@@ -23,7 +23,7 @@
 				/* Since Error does not contain the status, we use HttpError.
 				 */
 				status: error instanceof HttpError ? error.response.status : 500,
-				error: error
+				error: error,
 			};
 		}
 	}
@@ -46,6 +46,6 @@
 
 <nav>
 	{#each articleItemsResult.data as item}
-		<a href={'/article/' + item.id.toString()}>{item.title}</a>
+		<a href="{'/article/' + item.id.toString()}">{item.title}</a>
 	{/each}
 </nav>

@@ -8,9 +8,9 @@
 				<br class="hidden lg:inline-block" />readymade gluten
 			</h1>
 			<p class="mb-8 leading-relaxed">
-				Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos
-				poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic
-				tumeric truffaut hexagon try-hard chambray.
+				Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard
+				tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon
+				try-hard chambray.
 			</p>
 			<div class="flex justify-center">
 				<button

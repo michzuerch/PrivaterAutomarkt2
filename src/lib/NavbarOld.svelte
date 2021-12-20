@@ -28,9 +28,7 @@
 						<!-- Primary nav -->
 						<div class="hidden md:flex items-center space-x-1">
 							<a href="/Gallery" class="py-5 px-3 text-black hover:text-gray-700">Bildergallerie</a>
-							<a href="/Location" class="py-5 px-3 text-black hover:text-gray-700"
-								>So finden Sie uns</a
-							>
+							<a href="/Location" class="py-5 px-3 text-black hover:text-gray-700">So finden Sie uns</a>
 							<a href="/Impressum" class="py-5 px-3 text-black hover:text-gray-700">Impressum</a>
 						</div>
 					</div>
@@ -46,7 +44,7 @@
 				-->
 					</div>
 					<!-- Mobile button -->
-					<div on:click={toggleMenu} class="md:hidden flex items-center">
+					<div on:click="{toggleMenu}" class="md:hidden flex items-center">
 						<button>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -59,15 +57,14 @@
 									stroke-linecap="round"
 									stroke-linejoin="round"
 									stroke-width="2"
-									d="M4 6h16M4 12h16M4 18h16"
-								/>
+									d="M4 6h16M4 12h16M4 18h16"></path>
 							</svg>
 						</button>
 					</div>
 				</div>
 			</div>
 			<!-- Mobile menu -->
-			<div class="{showMenu ? '' : 'hidden'} md:hidden" on:click={toggleMenu}>
+			<div class="{showMenu ? '' : 'hidden'} md:hidden" on:click="{toggleMenu}">
 				<a href="/" class="block py-2 px-4 text-sm hover:bg-gray-300">Home</a>
 				<a href="/Playground" class="block py-2 px-4 text-sm hover:bg-gray-300">Playground</a>
 				<a href="/Hero" class="block py-2 px-4 text-sm hover:bg-gray-300">Hero</a>
