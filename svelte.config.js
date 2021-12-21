@@ -2,7 +2,6 @@ import { mdsvex } from 'mdsvex';
 import mdsvexConfig from './mdsvex.config.js';
 import adapter from '@sveltejs/adapter-static';
 //import netlify from '@sveltejs/adapter-netlify';
-import { imagetools } from 'vite-imagetools';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,8 +13,6 @@ const config = {
 			define: {
 				'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString()),
 			},
-
-			plugins: [imagetools({ force: true })],
 		},
 		adapter: adapter({
 			// default options are shown
