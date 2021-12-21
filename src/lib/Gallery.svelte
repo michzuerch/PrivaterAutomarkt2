@@ -28,14 +28,14 @@
 	function next(id) {
 		let val = parseInt(id + 1);
 		if (val > 21) val = 21;
-		console.log(`Next ${id}:${val}`);
+		//console.log(`Next ${id}:${val}`);
 		return val;
 	}
 
 	function previous(id) {
 		let val = parseInt(id - 1);
 		if (val < 0) val = 0;
-		console.log(`Previous ${id}:${val}`);
+		//console.log(`Previous ${id}:${val}`);
 		return val;
 	}
 </script>
@@ -51,16 +51,3 @@
 		</div>
 	{/each}
 </div>
-
-<!-- {image.src}
-<div class="max-w-screen-xl m-auto bg-red-300">
-	<div class="w-full relative select-none">
-		<img class="object-fill aspect-w-16 w-full" src="{image.src}" title="{image.title}" alt="2" />
-
-		<div class="absolute w-full top-1/2 transform -translate-y-1/2 flex justify-between items-start px-3">
-			<button>Previous</button>
-			<button on:click="{next}">Next</button>
-		</div>
-	</div>
-</div>
- -->
