@@ -1,5 +1,5 @@
 <script>
-	import Gallery from '$lib/Gallery.svelte';
+	import Carousel from '$lib/Carousel.svelte';
 </script>
 
-<Gallery />
+<Carousel />

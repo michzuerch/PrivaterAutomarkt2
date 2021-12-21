@@ -23,8 +23,10 @@
 		{ title: '21', src: 'Autos/Gallery/21.jpg' },
 	];
 
-	let image;
-
+	/**
+	 * Generates the link for the next picture.
+	 * @param {number} id - Index of the picture in array images.
+	 */
 	function next(id) {
 		let val = parseInt(id + 1);
 		if (val > 21) val = 21;
@@ -32,6 +34,10 @@
 		return val;
 	}
 
+	/**
+	 * Generates the link for the previous picture.
+	 * @param {number} id - Index of the picture in array images.
+	 */
 	function previous(id) {
 		let val = parseInt(id - 1);
 		if (val < 0) val = 0;

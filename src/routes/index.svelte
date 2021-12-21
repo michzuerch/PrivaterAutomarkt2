@@ -8,7 +8,7 @@
 				<!-- 				<br class="hidden lg:inline-block" />readymade gluten
  -->
 			</h1>
-			<p class="mb-8 font-medium leading-relaxed"> Privat an Privat = Günstig </p>
+			<p class="mb-8 text-2xl font-medium leading-relaxed"> Privat an Privat = Günstig </p>
 			<div class="flex justify-center">
 				<a href="https://home.mobile.de/PRIVATERAUTOMARKTRADOLFZELL#ses" target="_blank">
 					<button
