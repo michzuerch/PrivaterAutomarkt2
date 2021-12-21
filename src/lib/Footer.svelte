@@ -4,7 +4,7 @@
 </script>
 
 <!-- svelte-ignore a11y-missing-attribute -->
-<footer class="text-gray-700 body-font bg-yellow-500">
+<footer class="text-gray-900 body-font bg-yellow-500">
 	<div class="container px-5 py-3 mx-auto">
 		<div class="flex flex-wrap md:text-left text-center justify-center ">
 			<div class="lg:w-1/2 md:w-1/2 w-full px-4">
@@ -104,18 +104,6 @@
 						+49 - (0)7732-942408
 					</p>
 				</div>
-			</div>
-		</div>
-		<div class="bg-gray-200">
-			<div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-				<p class="text-gray-500 text-sm text-center sm:text-left">
-					© {date} Privater Automarkt —
-					<a href="https://billig-car.de" class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer"
-						>info@billig-car.de</a
-					>
-				</p>
-				<span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm"
-				></span>
 			</div>
 		</div>
 	</div>
