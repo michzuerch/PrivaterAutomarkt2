@@ -1,5 +1,5 @@
 <script>
-	import { pokemon } from '../stores/pokestore';
+	import { pokemon } from '../lib/stores/pokestore';
 	import PokemanCard from '$lib/PokemanCard.svelte';
 
 	let searchTerm = '';
