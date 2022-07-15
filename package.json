@@ -42,7 +42,7 @@
 		"postcss-cli": "^9.0.2",
 		"prettier": "^2.5.1",
 		"prettier-plugin-svelte": "^2.5.1",
-		"svelte": "^3.44.2",
+		"svelte": "^3.49.0",
 		"svelte-fontawesome": "^0.0.3",
 		"svelte-hamburgers": "^3.0.1",
 		"tailwindcss": "^3.0.0",
